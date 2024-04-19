@@ -1,9 +1,7 @@
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <h1>Hello Books App</h1>
-    </div>
+    <h1 className="text-3xl font-bold underline bg-red-500">
+      Hello Books market place!
+    </h1>
   );
 }
-
-export default App;
